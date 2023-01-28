@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfólio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+	<!----Cabeçalho---->
+	<div class="cabecalho">
+		<nav>
+			<h2 class="logo">Arthur <span>A.</span></h2>
+			<ul>
+				<button class="btn"><li><a href=#about>Sobre Mim</a></li></button>
+				<button class="btn"><li><a href="#service">Projetos Recentes</a></li></button>
+				<button class="btn"><li><a href="#contato">Contato</a></li></button>
+			</ul>
+		</nav>
+	<!----Main Page---->
+	<div class="content">
+			<h3>Olá, eu me chamo</h3>
+			<h1 id="type"></h1>
+			<script type="text/javascript">
+				var i = 0;
+				var txt = "Arthur Almeida.";
+				var speed=95;
+				function type(){
+					document.getElementById("type").innerHTML
+					+=txt.charAt(i);
+				i++;
+				setTimeout(type,speed);
+			}
+				type();
+			</script>
+			<p>Nasci em Canela no Rio Grande do Sul, sou desenvolvedor e <br>tenho experiência à 1 ano com Python e Excel.</p>
+		</div>
+	</div>
+	<!---Sobre Mim---->
+	 <section class="about" id="about" data-aos="fade-right">
+	 	<div class="main">
+        <div class="about-text">
+            <h2>Sobre Mim</h2>
+            <h5>Desenvolvedor <span>& Programador</span></h5>
+            <p>O meu nome é Arthur Almeida, tenho 18 anos e nasci na cidade de Canela-RS, faço faculdade de Análise e Desenvolvimento de Sistemas na Universidade de Caxias do Sul. Sou desenvolvedor Python, além disso, posso criar automações em WebScraping de uma forma eficiente.
+Tenho um amplo conhecimento com planilhas e posso colaborar na criação de DashBoards personalizados para sua empresa.<br>Espero que possamos trabalhar juntos.</p>
+			<a href="mailto:amoebaboa@gmail.com"><button type="button" class="talk">Let's Talk</button></a>
+        </div>
+    </div>
+    </section>
+    
+    <!----Projetos Recentes---->
+    <section id="service" data-aos="fade-right">
+    <div class="service">
+    	<div class="title">
+    		<h2>Meus Projetos <span>Python</span></h2>
+    	</div>
+
+    	<div class="box">
+    		<div class="card">
+    			<i class='bx bxl-python'></i>
+    			<h5>Pesquisa Jurídica Automática.</h5>
+    			<div class="pra">
+	    			<video class="elementor" width="550" height="300" src="https://drive.google.com/uc?export=download&id=1qVFvhaN9F6Ptw40UqksYsOtDMI4dJl-w" controls controlslist="nodownload"></video>
+	    			<p>Programa em que faz uma pesquisa jurídica com base nos dados de uma planilha do Excel.</p>	
+    			</div>
+    		</div>
+
+    		<div class="card">
+    			<i class='bx bxl-python'></i>
+    			<h5>Envio de E-mail com Anexo Automático.</h5>
+    			<div class="pra">
+	    			<video class="elementor" width="550" height="300" src="https://drive.google.com/uc?export=download&id=1ehapFx4-SGnvSFs-7wSlKeU8yogMmxQj" controls controlslist="nodownload"></video>
+	    			<p>Programa onde envia e-mails para várias pessoas com anexo.</p>	
+    			</div>
+    		</div>
+
+    		<div class="card">
+    			<i class='bx bxl-python'></i>
+    			<h5>Emissão de Nota Fiscal Automática.</h5>
+    			<div class="pra">
+					<video class="elementor" width="550" height="300" src="https://drive.google.com/uc?export=download&id=1oJ5m8s2nuYfnIEcoDMrA40ZR3gWMx3kI" controls controlslist="nodownload"></video>
+					<p>Programa em que emite notas fiscais automaticamente.</p>	
+    			</div>
+    		</div>
+
+    		<div class="card">
+    			<i class='bx bxl-python'></i>
+    			<div class="pra">
+	    			<h5>WebScraping BET365.</h5>
+	    			<video class="elementor" width="550" height="300" src="https://drive.google.com/uc?export=download&id=1MMQ8_OM8xqxFzc_1GHROBfAlOvMDlgr-" controls controlslist="nodownload"></video>
+	    			<p>Programa em que pega os times que irão jogar nas próximas 12 horas.</p>
+	    		</div>
+    		</div>
+    	</div>
+    	</div>
+    </section>
+    <!----Contato---->
+    <section id="contato" data-aos="fade-right">
+   	<div class="contato">
+   		<p>Contate-me</p>
+   		<a class="botao-sec" href="mailto:amoebaboa@gmail.com">Contato</a>
+   	</div>
+   	</section>
+   	<!----Rodapé---->
+   	<section data-aos="fade-down">
+   	<footer>
+   	<p>Arthur Almeida</p>
+   	<p>Caso tenha alguma dúvida pode entrar em contato comigo também por aqui: </p>
+   	<div class="social">
+   		<a href="https://www.facebook.com/arthuralmeidants"><i class='bx bxl-facebook'></i></a>
+   		<a href="https://www.instagram.com/arthuralmeidants/"><i class='bx bxl-instagram' ></i></a>
+   	</div>
+   </footer>
+   </section>
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+  </script>
+
+</body>
+</html>
